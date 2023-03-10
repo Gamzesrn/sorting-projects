@@ -1,0 +1,8 @@
+[16,21,11,8,12,22] -> Merge Sort
+merge sort da sıralanacak elemanlar parçalanır tek tek olduktan sonra birleştirilir vr bu sırada sıralama da yapılır
+1.aşamada [16,21,11] , [8,12,22] şeklinde parçalanır.
+2.aşamada 16 , [21,11] ve 8 , [12,22] şeklinde parçalanır.
+3.aşamada 16 , 21 , 11 ve 8, 12 , 22 şeklinde parçalanır.
+4.aşamada [11,16,21] ve [8,12,22] şeklinde sıralanarak birleşir.
+5.aşamada [8,11,12,16,21,22] şeklinde sıralanır ve birleşir.
+big o notation = o(nlogn) olur.
